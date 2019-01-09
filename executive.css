@@ -26,18 +26,18 @@ body{
     border-radius: circle;
 }
 .aliases-Ex{
-    text-align: wrap;
-}
-/* .aliases-Ex{
-    border: 20px;
-    height: 200px;
-    width: 20%;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 20px;
+    display: flex;
+    align-self: self-start;
+    padding: 10px;
     border-radius: 10%;
-
-} */
+    text-align: justify;    
+}
 h2{
     text-align: center; 
+}
+.city-Ex{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+   
 }
