@@ -30,6 +30,7 @@ nav {
     margin-bottom: auto;
     margin-left: 10px;
 }
+
 #homeNav, #executiveSummary, #career, #Personal, #newsFeed {
     background-color: gray;
     border: 2px gray outset;
@@ -92,10 +93,21 @@ body {
     align-self: self-start;
 }
 
+.textWrap2{
+    display: flex;
+    align-self: 
+}
+
 .newsFeedSection{
     margin: 200px 30px 200px 30px;
 }
 
 .newFeedMainH1{
     text-align: center
+}
+
+/* Padding so that navbars don't hide content */
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
