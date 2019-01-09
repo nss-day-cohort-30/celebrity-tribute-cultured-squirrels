@@ -43,5 +43,6 @@ h2{
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
+    text-align: justify;    
    
 }
