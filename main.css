@@ -95,7 +95,7 @@ body {
 
 .textWrap2{
     display: flex;
-    align-self: 
+    flex-direction: row-reverse
 }
 
 .newsFeedSection{
