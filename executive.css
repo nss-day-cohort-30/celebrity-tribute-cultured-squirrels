@@ -1,0 +1,43 @@
+body{
+    background-color: lightgray;
+}
+
+.title-ex{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.portrait-ex li{
+    margin: center;
+}
+
+
+.garth-Ex .purple{
+    box-shadow: 10px;
+    height: 300px ;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid black 0px;
+    padding: 10px;
+    border-radius: circle;
+}
+.aliases-Ex{
+    display: flex;
+    align-self: self-start;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: justify;    
+}
+h2{
+    text-align: center; 
+}
+.city-Ex{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+   
+}
