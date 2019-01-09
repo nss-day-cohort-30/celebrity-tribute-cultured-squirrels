@@ -45,30 +45,57 @@ nav {
 
 /* FOOTER CSS */
 #footer {
-    text-align: center;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     color: white;
     background-color: black;
+    height: 50px;
 }
 
-
-
-#footer-icons p {
-    margin: 5px 0px 5px 0px;
-    font-size: 20px;
+#footer-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #footer-icons img {
     height: 20px;
     padding: 5px;
-    margin: 8px;
+    margin: 0 8px;
 }
 
 #footer-copyright {
     font-size: 12px;
-    padding-bottom: 8px;
-    margin-bottom: 0px;
-    margin-top: 8px;
+    height: 12px;
+}
+
+/* Padding so that navbars don't hide content */
+body {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("https://images.homedepot-static.com/productImages/00edb9e5-0e02-4862-98e3-30cd50dadb4c/svn/arthouse-wallpaper-623007-64_1000.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.newsFeed{
+    font-size: 20px
+}
+
+.newsFeedh1{
+    font-size: 30px
+}
+.textWrap{
+    display: flex;
+    align-self: self-start;
+}
+
+.newsFeedSection{
+    margin: 200px 30px 200px 30px;
+}
+
+.newFeedMainH1{
+    text-align: center
 }
