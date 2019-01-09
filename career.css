@@ -1,7 +1,8 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    background: black;
+    background-image: url(https://images.homedepot-static.com/productImages/00edb9e5-0e02-4862-98e3-30cd50dadb4c/svn/arthouse-wallpaper-623007-64_1000.jpg);
+    font-size: 20px;
 }
 
 .careerSkillImg {
