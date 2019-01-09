@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Garth Brooks</title>
+    <link rel="stylesheet" href="personalstyles.css">
 <style>
 body {
    color: white;
@@ -8,12 +13,33 @@ body {
    padding-bottom: 50px;
    background-image: url("https://images.homedepot-static.com/productImages/00edb9e5-0e02-4862-98e3-30cd50dadb4c/svn/arthouse-wallpaper-623007-64_1000.jpg");
 }
-h1  {color: white}
+h1  {color: white;
+text-align: center;
+font-family: 'Trebuchet MS'
+}
 p   {color: white}
 </style>
     <title>Garth Brooks Personal</title>
 </head> 
+
 <body>
+        <nav id='navMain'>
+                <a href='index.html' id='homeAnchor'><button type='button' id='homeNav'>Home</button></a>
+                <ul id='navbar'>
+                    <a href=''>
+                        <li><button type="button" id='executiveSummary'>executiveSummary</button></li>
+                    </a>
+                    <a href=''>
+                        <li><button type="button" id='career'>career</button></li>
+                    </a>
+                    <a href='personalindex.html'>
+                        <li><button type='button' id='Personal'>Personal</button></li>
+                    </a>
+                    <a href=''>
+                        <li><button type='button' id='newsFeed'>newsFeed</button></li>
+                    </a>
+                </ul>
+            </nav> 
     <h1>About Garth Brooks</h1>
     <article> 
         <form action="">
@@ -47,6 +73,21 @@ p   {color: white}
                     </ul>
                 </section>
         </form>
+        
+        <footer id="footer">
+                <div id="footer-icons">
+                    <p>Follow Garth Brooks</p>
+                    <div>
+                        <a id="twitter" href="https://twitter.com/garthbrooks?lang=en"><img src="./images/twitter.png" alt=""></a>
+                        <a id="spotify" href="https://open.spotify.com/artist/4BclNkZtAUq1YrYNzye3N7"><img src="./images/spotify.png"
+                                alt=""></a>
+                        <a id="facebook" href="https://www.facebook.com/GarthBrooks/"><img src="./images/facebook.png" alt=""></a>
+                        <a id="youtube" href="https://www.youtube.com/channel/UCu8MdcZTME0s-plu-J1E_yw"><img src="./images/youtube.png"
+                                alt=""></a>
+                    </div>
+                    <p id="footer-copyright">©2019 </p>
+                </div>
+            </footer>
     </article>
 </body>
 </html>
