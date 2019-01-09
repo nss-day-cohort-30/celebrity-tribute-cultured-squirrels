@@ -30,6 +30,7 @@ nav {
     margin-bottom: auto;
     margin-left: 10px;
 }
+
 #homeNav, #executiveSummary, #career, #Personal, #newsFeed {
     background-color: gray;
     border: 2px gray outset;
@@ -47,6 +48,7 @@ nav {
 #footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     color: white;
     background-color: black;
