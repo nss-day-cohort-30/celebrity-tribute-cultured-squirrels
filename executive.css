@@ -6,6 +6,7 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    padding: 20px;
     
 }
 
@@ -15,12 +16,25 @@ body{
 
 
 .garth-Ex .purple{
+    box-shadow: 10px;
     height: 300px ;
-    width: 50%;
-    /* margin: auto; */
+    width: 60%;
     margin-left: 20%;
     margin-right: 20%;
     border: solid black 0px;
-    padding: 20px;
+    padding: 10px;
     border-radius: circle;
+}
+.aliases-Ex{
+    float: center;
+    height: 200px;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 30%;
+    padding: 20px;
+    border-radius: 10%;
+
+}
+h2{
+    text-align: center;
 }
