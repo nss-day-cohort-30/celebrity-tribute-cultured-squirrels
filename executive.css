@@ -10,16 +10,16 @@ body{
 }
 
 .portrait-ex{
-    text-align: center;
+    margin: auto;
 }
 
 
-.purple{
+.garth-Ex .purple{
     height: 300px ;
     width: 50%;
-    margin: auto;
-    /* margin-left: 20%;
-    margin-right: 20%; */
+    /* margin: auto; */
+    margin-left: 20%;
+    margin-right: 20%;
     border: solid black 0px;
     padding: 10px;
     border-radius: circle;
