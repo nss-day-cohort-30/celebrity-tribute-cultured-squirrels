@@ -1,0 +1,26 @@
+body{
+    background-color: lightgray;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.portrait-ex{
+    text-align: center;
+}
+
+
+.purple{
+    height: 300px ;
+    width: 50%;
+    margin: auto;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    border: solid black 0px;
+    padding: 10px;
+    border-radius: circle;
+}
