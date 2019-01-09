@@ -74,6 +74,40 @@ nav {
 
 /* Padding so that navbars don't hide content */
 body {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("https://images.homedepot-static.com/productImages/00edb9e5-0e02-4862-98e3-30cd50dadb4c/svn/arthouse-wallpaper-623007-64_1000.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.newsFeed{
+    font-size: 20px
+}
+
+.newsFeedh1{
+    font-size: 30px
+}
+.textWrap{
+    display: flex;
+    align-self: self-start;
+}
+
+.textWrap2{
+    display: flex;
+    align-self: 
+}
+
+.newsFeedSection{
+    margin: 200px 30px 200px 30px;
+}
+
+.newFeedMainH1{
+    text-align: center
+}
+
+/* Padding so that navbars don't hide content */
+body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
