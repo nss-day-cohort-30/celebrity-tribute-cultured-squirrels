@@ -1,0 +1,78 @@
+/* HEADER CSS */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    height: 50px;
+}
+
+#navbar {
+    list-style-type: none;
+    padding-right: 10px; 
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+
+#navbar li {
+    display: inline;
+    color: white;
+}
+
+#homeNav {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+#homeNav, #executiveSummary, #career, #Personal, #newsFeed {
+    background-color: gray;
+    border: 2px gray outset;
+    border-radius: 4px;
+    color: white;
+}
+
+#homeAnchor {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+/* FOOTER CSS */
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 50px;
+}
+
+#footer-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer-icons img {
+    height: 20px;
+    padding: 5px;
+    margin: 0 8px;
+}
+
+#footer-copyright {
+    font-size: 12px;
+    height: 12px;
+}
+
+/* Padding so that navbars don't hide content */
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
