@@ -79,6 +79,8 @@ body {
     padding-bottom: 50px;
     background-image: url("https://images.homedepot-static.com/productImages/00edb9e5-0e02-4862-98e3-30cd50dadb4c/svn/arthouse-wallpaper-623007-64_1000.jpg");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
 } 
 
 .newsFeed{
@@ -106,8 +108,25 @@ body {
     text-align: center
 }
 
-/* Padding so that navbars don't hide content */
-body {
-    padding-top: 50px;
-    padding-bottom: 50px;
+#mainH1 {
+    text-align: center;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainPhoto {
+    text-align: center;
+}
+
+.mainFirstLetter {
+    font-size: 1.8em;
+}
+
+.mainFirst {
+    font-size: .8em;
 }
