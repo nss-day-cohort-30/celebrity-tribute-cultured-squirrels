@@ -1,5 +1,10 @@
 body{
-    background-color: lightgray;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;    
+    background-image: url("https://images.homedepot-static.com/productImages/00edb9e5-0e02-4862-98e3-30cd50dadb4c/svn/arthouse-wallpaper-623007-64_1000.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .title-ex{
@@ -37,7 +42,23 @@ h2{
 }
 .city-Ex{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-self: flex-end;
+    text-align: justify;  
+    padding-left: 15px;  
    
+}   
+#h2-Als{
+    text-align: center;
+    align-self: flex-start;
+}
+.portrait-ex{
+    justify-content: flex-end;
+    align-self: flex-start;
+    text-align: justify;
+    float: left;
+}
+#float-EX{
+    float: left;
+    padding: 5px;
 }
