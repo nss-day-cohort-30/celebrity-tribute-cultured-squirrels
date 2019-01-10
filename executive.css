@@ -43,6 +43,19 @@ h2{
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
-    text-align: justify;    
+    text-align: justify;  
+    padding-right: 15px;  
    
+}   
+#h2-Als{
+    text-align: center;
+    align-self: flex-start;
+}
+.portrait-ex{
+    display: block;
+    justify-content: flex-end;
+    align-self: flex-start;
+    text-align: justify;
+    /* margin-left: 20%;
+    margin-right: 10%; */
 }
