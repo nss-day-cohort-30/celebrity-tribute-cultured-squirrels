@@ -30,6 +30,7 @@ nav {
     margin-bottom: auto;
     margin-left: 10px;
 }
+
 #homeNav, #executiveSummary, #career, #Personal, #newsFeed {
     background-color: gray;
     border: 2px gray outset;
@@ -47,6 +48,7 @@ nav {
 #footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     color: white;
     background-color: black;
@@ -72,6 +74,59 @@ nav {
 
 /* Padding so that navbars don't hide content */
 body {
+    color: white;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url("https://images.homedepot-static.com/productImages/00edb9e5-0e02-4862-98e3-30cd50dadb4c/svn/arthouse-wallpaper-623007-64_1000.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+} 
+
+.newsFeed{
+    font-size: 20px
+}
+
+.newsFeedh1{
+    font-size: 30px
+}
+.textWrap{
+    display: flex;
+    align-self: self-start;
+}
+
+.textWrap2{
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.newsFeedSection{
+    margin: 200px 30px 200px 30px;
+}
+
+.newFeedMainH1{
+    text-align: center
+}
+
+#mainH1 {
+    text-align: center;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainPhoto {
+    text-align: center;
+}
+
+.mainFirstLetter {
+    font-size: 1.8em;
+}
+
+.mainFirst {
+    font-size: .8em;
 }
