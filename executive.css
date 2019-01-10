@@ -2,6 +2,7 @@ body{
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-size: 18px;    
     background-image: url("https://images.homedepot-static.com/productImages/00edb9e5-0e02-4862-98e3-30cd50dadb4c/svn/arthouse-wallpaper-623007-64_1000.jpg");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -44,7 +45,7 @@ h2{
     justify-content: flex-start;
     align-self: flex-end;
     text-align: justify;  
-    padding-right: 15px;  
+    padding-left: 15px;  
    
 }   
 #h2-Als{
@@ -52,8 +53,12 @@ h2{
     align-self: flex-start;
 }
 .portrait-ex{
-    display: block;
     justify-content: flex-end;
     align-self: flex-start;
     text-align: justify;
+    float: left;
+}
+#float-EX{
+    float: left;
+    padding: 5px;
 }
